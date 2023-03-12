@@ -30,21 +30,20 @@ header {
 header .nome {
   width: 50%;
   color: #FFF;
-  margin-left: 50px;
- 
+  margin-left: 50px; 
 }
 
 
-.menu ul { 
+header .menu ul { 
   display: flex;
 }
 
-.menu ul li {
+header .menu ul li {
   padding: 0 10px;
   list-style: none;   
 }
 
-.menu ul li a {
+header .menu ul li a {
   color: #FFF;
   text-decoration: none;
   text-transform: uppercase;
@@ -54,7 +53,7 @@ header .nome {
   
 }
 
-.menu ul li a:hover {
+header .menu ul li a:hover {
   opacity: .75;
   color: #a9a9a9;
 }
@@ -81,7 +80,7 @@ header .nome {
 }
 
 #home .container .icones ion-icon {
-  padding: 25px 0;
+  padding: 20px 0;
   font-size: 1.5rem;
   color: #FFFFFF;
   transition: 0.5s ease;
@@ -90,7 +89,6 @@ header .nome {
 #home .container .icones ion-icon:hover {
   color: #a9a9a9;
 }
-
 
 #home .container .titulo {
   width: 100%;
@@ -105,7 +103,7 @@ header .nome {
 #home .container .titulo h1 { 
   color: #fff;
   text-transform: uppercase;
-  font-size: 3rem; 
+  font-size: 2.5rem; 
   
 }
 
@@ -157,7 +155,6 @@ header .nome {
 }
 
 #soft-skills .container .texto p {
-  width: 50%;
   font-size: 1rem;
 }
 
@@ -185,16 +182,66 @@ header .nome {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 1172px) {
+
+header {
+  height: 70px;  
+}
+
+header .nome {
+  width: 30%;
+}
+
+#home .container .icones ion-icon {
+  padding: 15px 0;
+}
+
+#home .container .titulo h1 {
+  font-size: 2.0rem;
+
+}
+
+#home .container .titulo h2 {
+  font-size: 2.0rem;
+}
 
 
+#about .container .texto h1 {
+  width: 50%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
 
+#about .container .texto p {
+  width: 50%;
+  font-size: 0.9rem;
+}
 
+#soft-skills .container .texto h1 {
+  width: 50%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
 
+#soft-skills .container .texto p {
+  font-size: 0.9rem;
+}
 
+#hard-skills .container .texto h1 {
+  width: 50%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
 
+#hard-skills .container .texto p {
+  width: 50%;
+  font-size: 0.9rem;
+}
 
+@media screen and (max-width: 960px) {
+  header {
+    height: 60px;
+}
 
-
-
-
-
+}
+}
