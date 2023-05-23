@@ -1,5 +1,7 @@
 # Carmen Web Site
 
-Desenvolvimento de um site em HTML e CSS para contar um pouco sobre a minha trajetória profissional.
+ O site tem o objetivo de contar um pouco sobre a minha trajetória profissional.
+ 
+ Desenvolvido em HTML & CSS puro, utilizando o conceito de Mobile First.
 
-- Meu web site:  <https://carmencmattos.github.io/carmen-web-site/> 
+- <https://carmencmattos.github.io/carmen-web-site/> 
